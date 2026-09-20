@@ -23,7 +23,7 @@ class MenuShowHandler
 		if (wasDead){		
 	
 			Print("Player respawned - opening menu shortly");
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(OpenDeathMenu, 5000, false);	
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(OpenDeathMenu, 1500, false);	
 			wasDead = false;
 }
 		

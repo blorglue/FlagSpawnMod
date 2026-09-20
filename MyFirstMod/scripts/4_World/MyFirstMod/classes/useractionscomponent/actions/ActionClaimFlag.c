@@ -22,9 +22,20 @@ class ActionClaimFlag : ActionInteractBase
 			return;
 
 		string steamId = identity.GetPlainId();
-		bool claimed = MyFlagStore.ClaimFlag(flagObj.GetPosition(), steamId);
-		MyFlagStore.SendOwnedFlags(identity); 
+		string guid = identity.GetId();
+		vector flagPos = flagObj.GetPosition();
 
-		Print("[MyFirstMod] Claim by " + steamId + " at " + flagObj.GetPosition() + " -> " + claimed);
+		MyFlagData flag = MyFlagStore.FindFlag(flagPos);
+		if (flag && !MyFlagStore.CanClaim(flag, guid))
+		{
+			action_data.m_Player.MessageImportant("Only the player who placed this flag, or their faction, can claim it.");
+			Print("[MyFirstMod] Claim denied for " + steamId + " at " + flagPos);
+			return;
+		}
+
+		bool claimed = MyFlagStore.ClaimFlag(flagPos, steamId, guid);
+		MyFlagStore.SendOwnedFlags(identity);
+
+		Print("[MyFirstMod] Claim by " + steamId + " at " + flagPos + " -> " + claimed);
 	}
 }

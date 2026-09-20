@@ -1,0 +1,28 @@
+{
+    "GridSizeMeters": 1000,
+    "MaxFactions": 50,
+    "MaxFactionMembers": 20,
+    "EnableTowerSmoke": 1,
+    "TowerSearchTimeMs": 1800000,
+    "NeutralTerritoryWaves": 3,
+    "EnemyTerritoryWaves": 5,
+    "ZombieCountPerWave": [
+        15,
+        20,
+        35,
+        45,
+        50
+    ],
+    "TowerHealth": 150.0,
+    "ZombieDamageToTower": 1.0,
+    "EnableFactionHierarchy": 1,
+    "AdminPassword": "changeme",
+    "EnableFactionMemberMarkers": 1,
+    "ShowFactionMemberMarkerNames": 1,
+    "ShowFactionMemberMarkerRoles": 1,
+    "FactionMemberMarkerDistance": 1000.0,
+    "AllowOfflineTerritoryAttack": 0,
+    "EnableTerritoryEntryNotifications": 1,
+    "AllowBuildingInNeutralTerritory": 0,
+    "CaptureCooldownMinutes": 60
+}

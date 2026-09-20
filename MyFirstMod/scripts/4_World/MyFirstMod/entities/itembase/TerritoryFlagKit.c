@@ -6,7 +6,7 @@ modded class TerritoryFlagKit
 
 		if (GetGame().IsServer()){
 		Print("Calling Add Flag");
-		MyFlagStore.AddFlag(position);
+		MyFlagStore.AddFlag(position, MyFlagStore.GetGuid(player));
 		}
 			
 	}

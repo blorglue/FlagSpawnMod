@@ -1,0 +1,90 @@
+{
+    "big balls": {
+        "Name": "big balls",
+        "LeaderID": "p2Dlm0dlNih8u7Ix-uUUJO4Ui2T9oLYVtxNthCEuZC0=",
+        "HQGrid": "6_2",
+        "OwnedGrids": [
+            "6_2",
+            "5_2"
+        ],
+        "Members": [
+            "p2Dlm0dlNih8u7Ix-uUUJO4Ui2T9oLYVtxNthCEuZC0="
+        ],
+        "SubLeaders": [],
+        "Color": [
+            255,
+            0,
+            0
+        ]
+    },
+    "Faction_6_14": {
+        "Name": "Faction_6_14",
+        "LeaderID": "1p04ebMhjqnkn85qrWR8h84G4WnUKbeUyeigtWTMiO0=",
+        "HQGrid": "6_14",
+        "OwnedGrids": [
+            "6_14"
+        ],
+        "Members": [
+            "1p04ebMhjqnkn85qrWR8h84G4WnUKbeUyeigtWTMiO0="
+        ],
+        "SubLeaders": [],
+        "Color": [
+            92,
+            217,
+            168
+        ]
+    },
+    "Faction_1_5": {
+        "Name": "Faction_1_5",
+        "LeaderID": "rBrtlLD3aQmjx9P9EWpvre3h76I4srXur38yFi5hxmo=",
+        "HQGrid": "1_5",
+        "OwnedGrids": [
+            "1_5",
+            "0_5",
+            "0_4",
+            "1_4",
+            "2_5",
+            "3_5",
+            "4_5"
+        ],
+        "Members": [
+            "rBrtlLD3aQmjx9P9EWpvre3h76I4srXur38yFi5hxmo=",
+            "zhrVXv9ZHEv_WTCA3ID86_WMljISz6OHc6LHrZW_iM0=",
+			"H1aSEG8a7e72vBu8dw34hTXPo3w0dS7JKB6cJ2ERhec="
+        ],
+        "SubLeaders": [],
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "Regulatorz": {
+        "Name": "Regulatorz",
+        "LeaderID": "Dm7VQ-kyOG0U5yTSiPo10YCaaLQI-TBZB5P1zFPMMbQ=",
+        "HQGrid": "8_5",
+        "OwnedGrids": [
+            "8_5",
+            "7_5",
+            "7_6",
+            "8_6",
+            "6_5",
+            "9_6",
+            "6_4",
+            "5_5",
+            "7_4"
+        ],
+        "Members": [
+            "Dm7VQ-kyOG0U5yTSiPo10YCaaLQI-TBZB5P1zFPMMbQ=",
+            "0W5atXkk9ldhdFEGRUryL3jmVnX512athu5Kmte2VQA=",
+            "bCTlda3MDx7ttxx39wMtOZERzPOq1lhGiQ2FUVAmUaY=",
+            "DfM0EdDRIF4_Ho22PT9BmVzKSn_vep3c2x6e6PIONlE="
+        ],
+        "SubLeaders": [],
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    }
+}

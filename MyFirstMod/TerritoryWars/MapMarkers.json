@@ -1,0 +1,148 @@
+{
+    "Markers": [
+        {
+            "Name": "Marker",
+            "Position": [
+                10814.0419921875,
+                0.0,
+                11399.1923828125
+            ],
+            "Color": -65536,
+            "OwnerID": "6MFy04llFexBmixSA9wAKhG5AHCWZz0cIXC0e8HhdGg=",
+            "FactionName": "",
+            "MarkerType": 0
+        },
+        {
+            "Name": "HOME",
+            "Position": [
+                8353.6337890625,
+                0.0,
+                10893.4619140625
+            ],
+            "Color": -2304,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(5) HQ",
+            "Position": [
+                4613.4697265625,
+                0.0,
+                5585.73828125
+            ],
+            "Color": -786177,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(4) HQ",
+            "Position": [
+                4249.1015625,
+                0.0,
+                7284.62109375
+            ],
+            "Color": -16711916,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(3) HQ",
+            "Position": [
+                2560.06591796875,
+                0.0,
+                8829.859375
+            ],
+            "Color": -29696,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(2) HQ",
+            "Position": [
+                5830.5751953125,
+                0.0,
+                13892.8515625
+            ],
+            "Color": -10551041,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(8) HQ",
+            "Position": [
+                5863.2060546875,
+                0.0,
+                4834.728515625
+            ],
+            "Color": -65536,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(9) HQ",
+            "Position": [
+                6796.4677734375,
+                0.0,
+                2041.4912109375
+            ],
+            "Color": -16711905,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "team(6) HQ",
+            "Position": [
+                10479.287109375,
+                0.0,
+                5137.0908203125
+            ],
+            "Color": -5701888,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Team(7) HQ",
+            "Position": [
+                5716.17236328125,
+                0.0,
+                2411.193359375
+            ],
+            "Color": -16711744,
+            "OwnerID": "",
+            "FactionName": "Faction_8_11",
+            "MarkerType": 1
+        },
+        {
+            "Name": "jafos base",
+            "Position": [
+                5170.30859375,
+                0.0,
+                10928.0
+            ],
+            "Color": -65536,
+            "OwnerID": "",
+            "FactionName": "Faction_1_5",
+            "MarkerType": 1
+        },
+        {
+            "Name": "Marker",
+            "Position": [
+                1124.867919921875,
+                0.0,
+                10850.9697265625
+            ],
+            "Color": -65536,
+            "OwnerID": "",
+            "FactionName": "Faction_1_5",
+            "MarkerType": 1
+        }
+    ]
+}

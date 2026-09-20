@@ -86,17 +86,23 @@ modded class MissionBase
 		return;
 	}
 
-	float x = flagPos[0] + 3;
-	float z = flagPos[2];
-	if (GetGame().SurfaceIsSea(x, z))
+	if (GetGame().SurfaceIsSea(flagPos[0], flagPos[2]))
 	{
 		Print("[MyFirstMod] Rejected spawn in water at: " + requested);
 		return;
 	}
 
-	player.SetPosition(Vector(x, GetGame().SurfaceY(x, z), z));
+	vector dest = MySafeLanding.Find(flagPos);
+	if (dest == vector.Zero)
+	{
+		// nothing safe nearby: fall back to the point itself rather than leaving the player stranded
+		dest = Vector(flagPos[0], GetGame().SurfaceY(flagPos[0], flagPos[2]), flagPos[2]);
+		Print("[MyFirstMod] No safe landing spot near " + requested + ", using the exact point");
+	}
 
-	Print("[MyFirstMod] Teleported " + sender.GetPlainId() + " to " + requested);
+	player.SetPosition(dest);
+
+	Print("[MyFirstMod] Teleported " + sender.GetPlainId() + " to " + dest + " (requested " + requested + ")");
 }
 
 	override UIScriptedMenu CreateScriptedMenu(int id)

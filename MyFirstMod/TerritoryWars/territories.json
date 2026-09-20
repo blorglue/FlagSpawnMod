@@ -1,0 +1,192 @@
+{
+    "9_6": {
+        "GridID": "9_6",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "4_5": {
+        "GridID": "4_5",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "7_4": {
+        "GridID": "7_4",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "7_5": {
+        "GridID": "7_5",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "7_6": {
+        "GridID": "7_6",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "2_5": {
+        "GridID": "2_5",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "5_2": {
+        "GridID": "5_2",
+        "OwnerFaction": "big balls",
+        "IsHQ": 0,
+        "Color": [
+            255,
+            0,
+            0
+        ]
+    },
+    "5_5": {
+        "GridID": "5_5",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "0_4": {
+        "GridID": "0_4",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "0_5": {
+        "GridID": "0_5",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "8_5": {
+        "GridID": "8_5",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 1,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "8_6": {
+        "GridID": "8_6",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "3_5": {
+        "GridID": "3_5",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "6_14": {
+        "GridID": "6_14",
+        "OwnerFaction": "Faction_6_14",
+        "IsHQ": 1,
+        "Color": [
+            92,
+            217,
+            168
+        ]
+    },
+    "6_2": {
+        "GridID": "6_2",
+        "OwnerFaction": "big balls",
+        "IsHQ": 1,
+        "Color": [
+            255,
+            0,
+            0
+        ]
+    },
+    "6_4": {
+        "GridID": "6_4",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "6_5": {
+        "GridID": "6_5",
+        "OwnerFaction": "Regulatorz",
+        "IsHQ": 0,
+        "Color": [
+            0,
+            0,
+            255
+        ]
+    },
+    "1_4": {
+        "GridID": "1_4",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 0,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    },
+    "1_5": {
+        "GridID": "1_5",
+        "OwnerFaction": "Faction_1_5",
+        "IsHQ": 1,
+        "Color": [
+            155,
+            109,
+            129
+        ]
+    }
+}
