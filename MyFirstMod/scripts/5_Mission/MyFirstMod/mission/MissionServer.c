@@ -7,8 +7,6 @@ modded class MissionServer
 
 		Print("[MyFirstMod] MissionServer::OnInit");
 
-		// Load server-side config
-		GetMyFirstModConfig();
 		MySpawnPointStore.Get();
 	}
 
@@ -16,11 +14,7 @@ modded class MissionServer
 	{
 		super.InvokeOnConnect(player, identity);
 
-		if (MyFirstModConfig.SYNC_TO_CLIENTS)
-		{
-			GetRPCManager().SendRPC("RPC", "RPC_Receive_MyFirstModConfig", new Param1<ref MyFirstModConfig>(GetMyFirstModConfig()), true, identity);
-			MyFlagStore.SendOwnedFlags(identity);
-			MySpawnPointStore.SendToClient(identity);
-		}
+		MyFlagStore.SendOwnedFlags(identity);
+		MySpawnPointStore.SendToClient(identity);
 	}
 }

@@ -4,7 +4,6 @@ modded class ActionConstructor
     {
         super.RegisterActions(actions);
 
-        actions.Insert(ActionExample);
 		actions.Insert(ActionClaimFlag); //Claiming flag prompt
     }
 }

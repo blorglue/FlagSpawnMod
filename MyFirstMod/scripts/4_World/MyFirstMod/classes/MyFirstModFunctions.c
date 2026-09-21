@@ -24,7 +24,7 @@ class MyFirstModFunctions
 	}
 
 	//! Display client message ONLY on client
-	static void ZenClientMessage(string message)
+	static void ClientMessage(string message)
 	{
 #ifndef SERVER
 		if (GetGame().GetPlayer())
@@ -37,7 +37,7 @@ class MyFirstModFunctions
 	//! Print a debug chat message both client-side & server-side
 	static void DebugMessage(string message)
 	{
-		ZenClientMessage("[CLIENT] " + message);
+		ClientMessage("[CLIENT] " + message);
 		SendGlobalMessage(message);
 	}
 
